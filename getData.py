@@ -5,6 +5,10 @@ consumer_key = 'FnJG9bdfMZl28ljr1QH25alPJ'
 consumer_secret = 'JoMnyKXQVzwPTyHfwtkN5Ls4Ni239v5m0ChTuLDMHLa82dogIJ'
 access_key= '1420534803858960394-crHDDBH3JKbJTEvjfcWBGsz9IsZLgT'
 access_secret = 'KRbG85asHyl4eeLSRqgQCZlGQys9SI4ZAj8GK6LcR0vmx'
+# consumer_key = 
+# consumer_secret = 
+# access_key= 
+# access_secret = 
 
 
 auth = tw.OAuthHandler(consumer_key, consumer_secret)
@@ -52,6 +56,4 @@ for user in users:
 all_tweets_df["target"].replace({"BarackObama": 1, "khloekardashian": 0}, inplace=True)
 all_tweets_df.head()
 
-writer = pd.ExcelWriter('tweets.xlsx')
-all_tweets_df.to_excel(writer)
-writer.save()
+all_tweets_df.to_csv('tweets.csv')
