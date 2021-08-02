@@ -44,20 +44,19 @@ X_test  = vectorizer.transform(tweets_test)
 classifier = LogisticRegression()
 classifier.fit(X_train, y_train)
 
-@app.route('/', methods=['GET'])
+@app.route('/resp', methods=['GET'])
 def api_id():
     if 'text' in request.args:
         text = str(request.args['text'])
     else:
-        return "Error: No id field provided. Please specify an id."
-
+        return "Error: No text field provided. Please specify a tweet to get predictions."
     text = clean(text)
     if len(text.split()) < 5 :
-        text = str(request.args['text'])
+        text = str(text_json.get('text'))
 
     input_string = vectorizer.transform([text])
     
     res = classifier.predict_proba(input_string) [0]
-    return jsonify({"0":str(res[0]), "1":str(res[1])})
+    return jsonify({"zero":res[0], "one":res[1]})
 
 app.run()
