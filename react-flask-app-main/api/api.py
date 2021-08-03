@@ -52,7 +52,7 @@ def api_id():
         return "Error: No text field provided. Please specify a tweet to get predictions."
     text = clean(text)
     if len(text.split()) < 5 :
-        text = str(text_json.get('text'))
+        text = str(request.args['text'])
 
     input_string = vectorizer.transform([text])
     

@@ -1,18 +1,16 @@
-import React from 'react';
-import './App.css';
+import React  from 'react';
+import Header from './components/Header.js'
+import Main from './components/Main.js'
+import Footer from './components/Footer.js'
 
-function App() {
-
-    const text = "water sun kim khloe beach waves swim suit tan makeup lash eye fit friends hgtv"
-    fetch(`/resp?text=${text}`).then(res => res.json()).then(data => {
-      console.log(data);
-    });
-
-
+const App = () => {
   return (
-    <div className="App">
-      <p>Hello There!</p>
+    <div className="container">
+      <Header />
+      <Main />
+      <Footer />
     </div>
+    
   );
 }
 

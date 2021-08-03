@@ -1,13 +1,134 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: 'Rubik', sans-serif;
+  background-color: #1DA1F2;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#header {
+  color: white;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#main {
+  margin: auto;
+  border-radius: 4px;
+  background-color: white;
+  color: black;
+  min-height: 420px;
+  max-height: 600px;
+  width: 85%;
+  text-align: center;
+  padding: 10px;
+}
+
+#main h3 {
+  background-color: white;
+  color: #949494;
+}
+
+#charcount {
+  background-color: white;
+  color: #949494;
+  font-size: xx-small;
+  margin-top: -35px;
+}
+
+form {
+  background-color: white;
+  color: #1DA1F2;
+}
+
+form textarea {
+  background-color: white;
+  border: 2px solid #949494;
+  border-radius: 4px;
+  resize: none;
+  width: 475px;
+  height: 125px;
+  padding: 5px;
+  outline: none;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+textarea:focus {
+  border: 2px solid #949494;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+button {
+  border: 2px solid #1DA1F2;
+  border-radius: 4px;
+  padding: 5px 15px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 25px;
+}
+
+button:hover {
+  transform: scale(1.125);  
+}
+
+button:active {
+  color: #949494;
+}
+
+#prediction {
+  margin: auto;
+  background-color: white;
+  border: 2px solid #949494;
+  border-radius: 4px;
+  width: 550px;
+  height: 150px;
+}
+
+#prediction p, #prediction a {
+  background-color: white;
+}
+
+#prediction a:focus, #hpredictionome a:hover, #prediction a:visited, #prediction a:link, #prediction a:active {
+  color: #0000FF;
+}
+
+footer {
+  height: 75px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  padding: 5px;
+  margin-top: 3px;
+  text-align: center;
+}
+
+footer img {
+	background-color: transparent;
+	filter: brightness(0) invert(1);
+  margin: 10px 5px;
+}
+
+footer img:hover {
+	filter: brightness(1) invert(0);
+}
+
+@media only screen and (max-width: 700px) {
+  form textarea {
+    width: 275px;
+    font-size: x-small;
+  }
+
+  #prediction {
+    width: 300px;
+  }
+
+  #prediction p {
+    font-size: smaller;
+  }
 }
