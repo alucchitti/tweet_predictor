@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/tweet_predictor/static/css/main.a33a60fd.chunk.css",
+    "main.js": "/tweet_predictor/static/js/main.f31a188d.chunk.js",
+    "main.js.map": "/tweet_predictor/static/js/main.f31a188d.chunk.js.map",
+    "runtime-main.js": "/tweet_predictor/static/js/runtime-main.dc5584c6.js",
+    "runtime-main.js.map": "/tweet_predictor/static/js/runtime-main.dc5584c6.js.map",
+    "static/js/2.d9648712.chunk.js": "/tweet_predictor/static/js/2.d9648712.chunk.js",
+    "static/js/2.d9648712.chunk.js.map": "/tweet_predictor/static/js/2.d9648712.chunk.js.map",
+    "static/js/3.a1d6e309.chunk.js": "/tweet_predictor/static/js/3.a1d6e309.chunk.js",
+    "static/js/3.a1d6e309.chunk.js.map": "/tweet_predictor/static/js/3.a1d6e309.chunk.js.map",
+    "index.html": "/tweet_predictor/index.html",
+    "precache-manifest.00cec377c054a53cc1bfae5390f6cea1.js": "/tweet_predictor/precache-manifest.00cec377c054a53cc1bfae5390f6cea1.js",
+    "service-worker.js": "/tweet_predictor/service-worker.js",
+    "static/css/main.a33a60fd.chunk.css.map": "/tweet_predictor/static/css/main.a33a60fd.chunk.css.map",
+    "static/js/2.d9648712.chunk.js.LICENSE.txt": "/tweet_predictor/static/js/2.d9648712.chunk.js.LICENSE.txt",
+    "static/media/khloe.jpg": "/tweet_predictor/static/media/khloe.6c3d710e.jpg",
+    "static/media/obama.jpg": "/tweet_predictor/static/media/obama.5fcb1848.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dc5584c6.js",
+    "static/js/2.d9648712.chunk.js",
+    "static/css/main.a33a60fd.chunk.css",
+    "static/js/main.f31a188d.chunk.js"
+  ]
+}
