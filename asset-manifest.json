@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/tweet_predictor/static/css/main.cd8af936.chunk.css",
-    "main.js": "/tweet_predictor/static/js/main.381f2055.chunk.js",
-    "main.js.map": "/tweet_predictor/static/js/main.381f2055.chunk.js.map",
-    "runtime-main.js": "/tweet_predictor/static/js/runtime-main.72976a05.js",
-    "runtime-main.js.map": "/tweet_predictor/static/js/runtime-main.72976a05.js.map",
-    "static/js/2.8a9c90e7.chunk.js": "/tweet_predictor/static/js/2.8a9c90e7.chunk.js",
-    "static/js/2.8a9c90e7.chunk.js.map": "/tweet_predictor/static/js/2.8a9c90e7.chunk.js.map",
-    "static/js/3.38f8c73c.chunk.js": "/tweet_predictor/static/js/3.38f8c73c.chunk.js",
-    "static/js/3.38f8c73c.chunk.js.map": "/tweet_predictor/static/js/3.38f8c73c.chunk.js.map",
+    "main.css": "/tweet_predictor/static/css/main.50f6c727.chunk.css",
+    "main.js": "/tweet_predictor/static/js/main.2445532f.chunk.js",
+    "main.js.map": "/tweet_predictor/static/js/main.2445532f.chunk.js.map",
+    "runtime-main.js": "/tweet_predictor/static/js/runtime-main.2b38a33e.js",
+    "runtime-main.js.map": "/tweet_predictor/static/js/runtime-main.2b38a33e.js.map",
+    "static/js/2.06b4baed.chunk.js": "/tweet_predictor/static/js/2.06b4baed.chunk.js",
+    "static/js/2.06b4baed.chunk.js.map": "/tweet_predictor/static/js/2.06b4baed.chunk.js.map",
+    "static/js/3.4b476cbc.chunk.js": "/tweet_predictor/static/js/3.4b476cbc.chunk.js",
+    "static/js/3.4b476cbc.chunk.js.map": "/tweet_predictor/static/js/3.4b476cbc.chunk.js.map",
     "index.html": "/tweet_predictor/index.html",
-    "static/css/main.cd8af936.chunk.css.map": "/tweet_predictor/static/css/main.cd8af936.chunk.css.map",
-    "static/js/2.8a9c90e7.chunk.js.LICENSE.txt": "/tweet_predictor/static/js/2.8a9c90e7.chunk.js.LICENSE.txt",
+    "static/css/main.50f6c727.chunk.css.map": "/tweet_predictor/static/css/main.50f6c727.chunk.css.map",
+    "static/js/2.06b4baed.chunk.js.LICENSE.txt": "/tweet_predictor/static/js/2.06b4baed.chunk.js.LICENSE.txt",
     "static/media/khloe.6b0dd094.jpg": "/tweet_predictor/static/media/khloe.6b0dd094.jpg",
     "static/media/obama.8c7d0b90.jpg": "/tweet_predictor/static/media/obama.8c7d0b90.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.72976a05.js",
-    "static/js/2.8a9c90e7.chunk.js",
-    "static/css/main.cd8af936.chunk.css",
-    "static/js/main.381f2055.chunk.js"
+    "static/js/runtime-main.2b38a33e.js",
+    "static/js/2.06b4baed.chunk.js",
+    "static/css/main.50f6c727.chunk.css",
+    "static/js/main.2445532f.chunk.js"
   ]
 }
