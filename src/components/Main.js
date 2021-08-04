@@ -3,23 +3,33 @@ import GaugeChart from 'react-gauge-chart'
 import Prediction from './Prediction.js'
 import khloe from './images/khloe.jpg'
 import obama from './images/obama.jpg'
+import axios from 'axios';
 
 const Main = () => {
 
     const [tweet, setTweet] = useState('');
     const [submittedTweet, setSubmittedTweet] = useState('');
+    const [data] = useState({"one": 0, "zero": 0});
     const [winner, setWinner] = useState('');
     const [pct, setPct] = useState(0.5);
     const [gaugePct, setGaugePct] = useState(0.5)
     const [isPending, setIsPending] = useState(false);
+
 
     const handleSubmit = async(e) => {
         e.preventDefault();
 
         setIsPending(true);
 
-        const res = await fetch(`/resp?text=${encodeURIComponent(tweet)}`)
-        const data = await res.json()
+        try {
+            const result = await axios.get(`https://mighty-ridge-34468.herokuapp.com/https://arcane-garden-30153.herokuapp.com/resp?text=${encodeURIComponent(tweet)}`)
+            data.one = result.data.one;
+            data.zero = result.data.zero;
+  
+          } catch (error) {
+            console.error(error);
+          }
+
         // 1 - Obama    0 - Khloe
         if (data.one > data.zero) {
             setWinner('BarackObama')

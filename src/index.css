@@ -83,6 +83,7 @@ button:active {
 
 #prediction {
   margin: auto;
+  margin-top: -35px;
   background-color: white;
   border-radius: 4px;
   width: 550px;
@@ -189,6 +190,7 @@ footer img:hover {
 
   #prediction {
     width: 300px;
+    margin-top: 0px
   }
 
   #prediction p {
